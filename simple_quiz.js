@@ -7,7 +7,7 @@ var questions = [
 var question;
 var answer;
 var response;
-var correctAnswers;
+var correctAnswers = 0;
 var html;
 
 for (var i = 0; i <= questions.length; i += 1) {
@@ -19,6 +19,6 @@ for (var i = 0; i <= questions.length; i += 1) {
   }
 }
 
-html = "<p>You got " + correctAnswers + " question(s) right.</p>" ;
+html = "You got " + correctAnswers + " question(s) right." ;
 
 document.write(html);
