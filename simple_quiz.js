@@ -19,6 +19,6 @@ for (var i = 0; i <= questions.length; i += 1) {
   }
 }
 
-html = "You got " + correctAnswers + " question(s) right." ;
+html = "<p>You got " + correctAnswers + " question(s) right.</p>" ;
 
 document.write(html);
