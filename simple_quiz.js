@@ -10,7 +10,7 @@ var response;
 var correctAnswers = 0;
 var html;
 
-function print (message) {
+function print(message) {
   var outputDiv = document.getElementByID('output');
   outputDiv.innerHTML = message;
 }
