@@ -10,6 +10,10 @@ var response;
 var correctAnswers = 0;
 var html;
 
+function print (message) {
+  document.write(message);
+}
+
 for (var i = 0; i <= questions.length; i += 1) {
   question = questions[i][0];
   answer = questions[i][1];
@@ -21,4 +25,4 @@ for (var i = 0; i <= questions.length; i += 1) {
 
 html = "You got " + correctAnswers + " question(s) right." ;
 
-document.write(html);
+print(html);
