@@ -12,7 +12,7 @@ var html;
 
 function print (message) {
   var outputDiv = document.getElementByID('output');
-  outputDiv.innerHTML = "message";
+  outputDiv.innerHTML = message;
 }
 
 for (var i = 0; i <= questions.length; i += 1) {
